@@ -1,20 +1,71 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 💪 GymLog
 
-# Run and deploy your AI Studio app
+A beautiful, modern fitness tracking app to log workouts and runs with real-time statistics and persistent data.
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/5540a7f6-de7e-4637-abed-def270ba26e1
+- **🏋️ Gym Tracking** - Log exercises, sets, reps, and weights
+- **🏃 Running Tracker** - Live stopwatch, distance tracking, auto-calculated pace & calories  
+- **📊 Real Statistics** - Actual progress tracking with charts and metrics
+- **⏥ Streak Counter** - Track consecutive active days
+- **⚖️ Weight Tracking** - Monitor weight progress with visual charts
+- **💾 Cloud Sync** - All data persisted to Supabase
+- **🔐 Secure Auth** - Email/password authentication with Row-Level Security
+- **📱 Responsive Design** - Works on desktop and mobile
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend:** React 19, TypeScript, Tailwind CSS v4, Framer Motion
+- **Backend:** Supabase (PostgreSQL + Auth)
+- **Charting:** Recharts
+- **Build:** Vite 6
 
+## 🚀 Quick Start
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+- Node.js 18+
+- Supabase account (free tier works)
+
+### Setup
+
+1. **Clone repo**
+```bash
+git clone <repo-url>
+cd gym
+npm install
+```
+
+2. **Create `.env` file**
+```env
+VITE_SUPABASE_URL=https://your-project.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-key
+```
+
+3. **Setup Supabase Database**
+
+Go to Supabase SQL Editor and run the [setup SQL script](./SQL_SETUP.md)
+
+4. **Start dev server**
+```bash
+npm run dev
+```
+
+Visit `http://localhost:3000` 🎉
+
+## 📖 Usage
+
+| Tab | Features |
+|-----|----------|
+| **Home** | Streak counter, weekly overview, quick start |
+| **Gym** | Log exercises, sets, reps, weights |
+| **Running** | Live timer, distance tracking, pace calculation |
+| **Stats** | Workout count, run stats, weight charts |
+| **Profile** | Weight tracking, stats, logout |
+
+## 📝 License
+
+MIT
+
+---
+
+**Built with ❤️ using React + Supabase**
