@@ -1,71 +1,70 @@
 # 💪 GymLog
 
-A beautiful, modern fitness tracking app to log workouts and runs with real-time statistics and persistent data.
+Ein Fitness-Tracker um Workouts und Läufe zu tracken, mit Statistiken und Cloud-Speicherung.
 
 ## ✨ Features
 
-- **🏋️ Gym Tracking** - Log exercises, sets, reps, and weights
-- **🏃 Running Tracker** - Live stopwatch, distance tracking, auto-calculated pace & calories  
-- **📊 Real Statistics** - Actual progress tracking with charts and metrics
-- **⏥ Streak Counter** - Track consecutive active days
-- **⚖️ Weight Tracking** - Monitor weight progress with visual charts
-- **💾 Cloud Sync** - All data persisted to Supabase
-- **🔐 Secure Auth** - Email/password authentication with Row-Level Security
-- **📱 Responsive Design** - Works on desktop and mobile
+- **🏋️ Gym Tracking** - Übungen, Sätze, Gewichte eintragen und speichern
+- **🏃 Laufen** - Stoppuhr, Distanz-Eingabe, Tempo und Kalorien werden berechnet
+- **📊 Statistiken** - Workouts, Läufe und Gewichtsverlauf anzeigen
+- **⏥ Streak** - Zeigt wie viele Tage hintereinander aktiv war
+- **⚖️ Gewicht tracken** - Gewichtsverlauf mit Chart
+- **💾 Cloud Speicherung** - Daten werden in Supabase gespeichert
+- **🔐 Anmeldung** - Mit Email und Passwort
 
-## 🛠️ Tech Stack
+## 🛠️ Technologien
 
-- **Frontend:** React 19, TypeScript, Tailwind CSS v4, Framer Motion
-- **Backend:** Supabase (PostgreSQL + Auth)
-- **Charting:** Recharts
-- **Build:** Vite 6
+- React 19 + TypeScript
+- Supabase (Datenbank)
+- Tailwind CSS
+- Vite (Build)
 
-## 🚀 Quick Start
+## 🚀 Installation
 
-### Prerequisites
+### Was du brauchst
 - Node.js 18+
-- Supabase account (free tier works)
+- Supabase Account (kostenlos)
 
 ### Setup
 
-1. **Clone repo**
+1. **Repository klonen**
 ```bash
 git clone https://github.com/osamaabazied/gym.git
 cd gym
 npm install
 ```
 
-2. **Create `.env` file**
+2. **`.env` Datei erstellen**
 ```env
 VITE_SUPABASE_URL=https://your-project.supabase.co
 VITE_SUPABASE_ANON_KEY=your-anon-key
 ```
 
-3. **Setup Supabase Database**
+3. **Datenbank einrichten**
 
-Go to Supabase SQL Editor and run the [setup SQL script](./SQL_SETUP.md)
+Gehe zu Supabase SQL Editor und führe das [SQL-Setup](./SQL_SETUP.md) aus
 
-4. **Start dev server**
+4. **App starten**
 ```bash
 npm run dev
 ```
 
-Visit `http://localhost:3000` 🎉
+Dann öffne `http://localhost:3000` 🎉
 
-## 📖 Usage
+## 📖 Bedienung
 
-| Tab | Features |
-|-----|----------|
-| **Home** | Streak counter, weekly overview, quick start |
-| **Gym** | Log exercises, sets, reps, weights |
-| **Running** | Live timer, distance tracking, pace calculation |
-| **Stats** | Workout count, run stats, weight charts |
-| **Profile** | Weight tracking, stats, logout |
+| Bereich | Was du machen kannst |
+|---------|---------------------|
+| **Home** | Dein Streak sehen, Woche überschauen |
+| **Gym** | Trainings eintragen mit Übungen |
+| **Laufen** | Lauf starten, Distanz eingeben, speichern |
+| **Statistiken** | Deine Fortschritte anschauen |
+| **Profil** | Gewicht tracken, Logout |
 
-## 📝 License
+## 📝 Lizenz
 
 MIT
 
 ---
 
-**Built with ❤️ using React + Supabase**
+Ein Projekt das ich in meiner Freizeit aufbaue um React und Supabase zu lernen.
