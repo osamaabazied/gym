@@ -30,7 +30,7 @@ A beautiful, modern fitness tracking app to log workouts and runs with real-time
 
 1. **Clone repo**
 ```bash
-git clone <repo-url>
+git clone https://github.com/osamaabazied/gym.git
 cd gym
 npm install
 ```
