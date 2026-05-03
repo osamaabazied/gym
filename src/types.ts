@@ -22,7 +22,17 @@ export interface UserStats {
   date: string;
 }
 
+export interface Run {
+  id: string;
+  date: string;
+  duration_seconds: number;
+  distance_km: number;
+  calories: number;
+  notes?: string;
+}
+
 export interface AppState {
   workouts: Workout[];
   weightHistory: UserStats[];
+  runs?: Run[];
 }

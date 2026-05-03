@@ -19,4 +19,19 @@ export const COMMON_EXERCISES = [
   'Seitheben',
   'Beinpresse',
   'Latzug',
+  'Beinbeugen',
+  'Wadenheben',
+  'Bauchpressen',
+  'Butterfly',
+  'Lat-Zug',
+  'Brustfliegen',
+  'Schulterheben',
+  'Liegestütze',
+  'Kabelzug',
+  'Hammercurls',
+  'Überkopfdrücken',
+  'Ausfallschritte',
+  'Beinstrecken',
 ];
+
+export const CALORIES_PER_KM = 60;
