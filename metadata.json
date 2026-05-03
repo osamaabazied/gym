@@ -1,0 +1,6 @@
+{
+  "name": "GymLog",
+  "description": "A minimalist gym tracking app for daily workouts and progress monitoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
